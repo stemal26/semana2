@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio8</title>
+</head>
+<body>
+    <h1>EJERCIO 7</h1>
+    <script>
+        let nota1 = parseInt(prompt("Ingrese la Primera Nota"));
+        let nota2 = parseInt(prompt("Ingrese la Segunda Nota"));
+        let nota3 = parseInt(prompt("Ingrese la Tercera Nota"));
+        let nota4 = parseInt(prompt("Ingrese la Cuarta Nota"));
+        let promedio = (nota1 + nota2 + nota3 + nota4) /4;
+
+        let pro = Math.round(promedio)
+        if(pro >=61){
+            document.write(`La nota es: ${pro} apronó.`);
+        }else{
+            document.write(`La nota es: ${pro} Reprobo.`);
+        }
+
+    </script>
+</body>
+</html>

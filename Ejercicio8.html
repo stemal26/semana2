@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercio8</title>
+</head>
+<body>
+    <h1>Ejercicio8</h1>
+    <script>
+
+        let sueldo = parseInt(prompt("Ingrese el sueldo del trabajador: "));
+       
+        if(sueldo >=3500 && sueldo <= 6000)
+        {
+            sueldo1 = sueldo * 0.03;
+            total=sueldo+sueldo1;
+            document.write(`El sueldo es: ${total} `);
+
+        }if(sueldo >=6001 && sueldo <= 10000){
+            sueldo1 = sueldo * 0.07;
+            total=sueldo+sueldo1;
+            document.write(`El sueldo es: ${total} `);
+
+        }if(sueldo >=10001 && sueldo <= 15000){
+            sueldo1 = sueldo * 0.09;
+            total=sueldo+sueldo1;
+            document.write(`El sueldo es: ${total} `);
+
+        }else{
+
+            alert(`El sueldo es: ${sueldo} `);
+        }
+    </script>
+</body>
+</html>

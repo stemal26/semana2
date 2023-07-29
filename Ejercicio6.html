@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <H1>EJERCICIO 6</H1>
+    <h2>Menú de ricas Pizzas</h2>
+<input type="hidden" id="myText" value="0" >
+<div>
+    <img id="myBtn" type="button"> <img src="./Pizza_Steve_2.jpg"  onclick="contador++;myFunction()"/> </img>
+    <p id="demo"></p>
+</div>
+
+
+
+
+<script>
+var contador = 0;
+
+function myFunction(tipo) {
+    var x = parseInt(document.getElementById("myText").value);
+    x = x + contador;
+    document.getElementById("demo").innerHTML = x;
+}
+
+</script>
+
+</body>
+</html>
